@@ -20,18 +20,18 @@ The size of the latent dimension was critical. I compared sizes of **128, 256, a
 * **Decision:** A **128-dimensional bottleneck** was selected as it forces the model to learn a generalized face manifold, effectively "filtering out" anomalies.
 
 <figure>
-  <img src="./assets/reconstruction_mse_512.png" height="200" alt="MSE 512">
-  <figcaption align="left"><i>MSE Loss, Latent size 512</i></figcaption>
+    <figcaption align="left"><i>MSE Loss, Latent size 512</i></figcaption>
+    <img src="./assets/reconstruction_mse_512.png" height="200" alt="MSE 512">
 </figure>
 
 <figure>
-  <img src="./assets/reconstruction_vgg_128.png" height="200" alt="VGG 128">
-  <figcaption align="left"><i>VGG Loss, Latent size 128</i></figcaption>
+    <figcaption align="left"><i>VGG Loss, Latent size 128</i></figcaption>
+    <img src="./assets/reconstruction_vgg_128.png" height="200" alt="VGG 128">
 </figure>
 
 <figure>
-  <img src="./assets/reconstruction_hybrid_128.png" height="200" alt="Hybrid 128">
-  <figcaption align="left"><i>Hybrid Loss, Latent size 128</i></figcaption>
+    <figcaption align="left"><i>Hybrid Loss, Latent size 128</i></figcaption>
+    <img src="./assets/reconstruction_hybrid_128.png" height="200" alt="Hybrid 128">
 </figure>
 
 ---
@@ -56,7 +56,7 @@ The threshold was selected to maximize the Macro F1-score on the validation set.
 | **Anomaly (0)** | **123** | 57 |
 | **Clean (1)** | 49 | **131** |
 
-<img alt="Reconstruction Score Distribution and Threshold Search" height="200" src="./assets/scores_distribution_hybrid_128.png"/>
+<img alt="Reconstruction Score Distribution and Threshold Search" height="250" src="./assets/scores_distribution_hybrid_128.png"/>
 
 ---
 
