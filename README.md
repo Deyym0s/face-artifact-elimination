@@ -87,11 +87,12 @@ The trained Autoencoder acts as a "generative filter." Because the model has nev
 1. **Original:** The input image with a generative defect.
 2. **Reconstructed:** The "cleaned" version where the artifact is suppressed.
 3. **Error Map:** A heatmap highlighting the top-k pixels where the model struggled, pinpointing the anomaly location.
-   <img alt="example_1.png" height="200" src="assets/example_1.png"/>
-   <img alt="example_2.png" height="200" src="assets/example_2.png"/>
-   <img alt="example_3.png" height="200" src="assets/example_3.png"/>
-   <img alt="example_4.png" height="200" src="assets/example_4.png"/>
-   <img alt="example_5.png" height="200" src="assets/example_5.png"/>
+
+<img alt="example_1.png" height="200" src="assets/example_1.png"/>
+<img alt="example_2.png" height="200" src="assets/example_2.png"/>
+<img alt="example_3.png" height="200" src="assets/example_3.png"/>
+<img alt="example_4.png" height="200" src="assets/example_4.png"/>
+<img alt="example_5.png" height="200" src="assets/example_5.png"/>
 
 ---
 
