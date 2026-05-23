@@ -1,6 +1,6 @@
 # Anomaly Detection and Elimination in Generated Portraits
 
-This project was developed as the second assigment for the **GenAI Course** hosted by **IT-Jim**. The objective is to detect and eliminate generative anomalies in AI-generated images of people using **Autoencoder-based** model.
+This project was developed as an assigment for the **GenAI Course** hosted by **IT-Jim**. The objective is to detect and eliminate generative anomalies in AI-generated images of people using **Autoencoder-based** model.
 
 ## 🏗️ Model Architecture & Optimization
 
